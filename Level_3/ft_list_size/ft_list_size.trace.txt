@@ -1,0 +1,34 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e2r6p19.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Sat Sep 26 17:39:54 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= ft_list_size =================================================================
+$> clang -Wextra -Wall -Werror ft_list_size.c main.c -o user_exe 
+ft_list_size.c:13:10: fatal error: 'ft_list_size.h' file not found
+#include "ft_list_size.h"
+         ^
+1 error generated.
+main.c:1:10: fatal error: 'ft_list.h' file not found
+#include "ft_list.h"
+         ^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================

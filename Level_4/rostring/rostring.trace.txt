@@ -1,0 +1,54 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r11p4.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 09:41:36 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury5
+
+= Git history ==================================================================
+$> git -C /var/folders/_6/gwk1t3j17w5_fhvsy2c4rbvr0000gq/T/tmpgsWccG/user log --pretty='%H - %an, %ad : %s'
+a136ef593266eb5fc44fb7de77a0d1a792721848 - Benjamin FLEURY, Sat Mar 5 09:04:29 2016 +0100 : paramsum
+2f834f99c92189cc9f6fd6d3b2d8cda3eca87817 - Benjamin FLEURY, Sat Mar 5 08:41:26 2016 +0100 : str_capitalizer
+6ccaa0301143e4d0c548c1f6816d605f4f78a20b - Benjamin FLEURY, Sat Mar 5 08:15:16 2016 +0100 : ft_strdup
+7b09f698fe799a0324a1c168dd2f14178842a95b - Benjamin FLEURY, Sat Mar 5 07:58:59 2016 +0100 : rot13
+ba599e19cec774e0abf6b5eb0d724ed8afbc687b - Benjamin FLEURY, Sat Mar 5 07:47:54 2016 +0100 : hello
+209d4d9956a7a6875db03c9d35b34240804e40f3 - Benjamin FLEURY, Sat Mar 5 07:42:21 2016 +0100 : aff_last_param
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/_6/gwk1t3j17w5_fhvsy2c4rbvr0000gq/T/tmpgsWccG/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1777 Mar  5 09:41 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  5 09:41 ft_strdup
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  5 09:41 paramsum
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  5 09:41 rot_13
+
+/var/folders/_6/gwk1t3j17w5_fhvsy2c4rbvr0000gq/T/tmpgsWccG/user/ft_strdup:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1697 Mar  5 09:41 ft_strdup.c
+
+/var/folders/_6/gwk1t3j17w5_fhvsy2c4rbvr0000gq/T/tmpgsWccG/user/paramsum:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1253 Mar  5 09:41 paramsum.c
+
+/var/folders/_6/gwk1t3j17w5_fhvsy2c4rbvr0000gq/T/tmpgsWccG/user/rot_13:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1359 Mar  5 09:41 rot_13.c
+ 
+= rostring =====================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

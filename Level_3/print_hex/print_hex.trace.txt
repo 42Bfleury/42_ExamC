@@ -1,0 +1,51 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e3r9p13.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 07:21:14 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury4
+
+= Git history ==================================================================
+$> git -C /var/folders/9f/jw4x91010_s422ytmx_9j4_r0000gq/T/tmpEOe1yz/user log --pretty='%H - %an, %ad : %s'
+c7f786622ac38a0d8a7815533afd7bfee3d7d330 - Benjamin FLEURY, Sat Mar 5 06:52:16 2016 +0100 : swap_bits
+cfd56fc0bc2635ed73a26039d74232419a1dc48f - Benjamin FLEURY, Sat Mar 5 06:34:17 2016 +0100 : ulstr
+4195ea2b54e560157203ed2bc1fa5912ffe62416 - Benjamin FLEURY, Sat Mar 5 06:22:38 2016 +0100 : hello
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/9f/jw4x91010_s422ytmx_9j4_r0000gq/T/tmpEOe1yz/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  695 Mar  5 07:21 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 07:21 hello
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 07:21 swap_bits
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 07:21 ulstr
+
+/var/folders/9f/jw4x91010_s422ytmx_9j4_r0000gq/T/tmpEOe1yz/user/hello:
+total 8
+-rw-r--r--  1 deepthought  deepthought  966 Mar  5 07:21 hello.c
+
+/var/folders/9f/jw4x91010_s422ytmx_9j4_r0000gq/T/tmpEOe1yz/user/swap_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1071 Mar  5 07:21 swap_bits.c
+
+/var/folders/9f/jw4x91010_s422ytmx_9j4_r0000gq/T/tmpEOe1yz/user/ulstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1325 Mar  5 07:21 ulstr.c
+ 
+= print_hex ====================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

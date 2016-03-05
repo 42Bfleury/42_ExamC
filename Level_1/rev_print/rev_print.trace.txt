@@ -1,0 +1,39 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r8p20.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 04:46:23 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury2
+
+= Git history ==================================================================
+$> git -C /var/folders/4f/ztv01rqx6_5g4k6ddnpc5xjr0000gq/T/tmpQQVtPG/user log --pretty='%H - %an, %ad : %s'
+332da3ed4f465adfc452568a69d0bb2cf5868c4c - Benjamin FLEURY, Sat Mar 5 04:15:36 2016 +0100 : aff_first_param
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/4f/ztv01rqx6_5g4k6ddnpc5xjr0000gq/T/tmpQQVtPG/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  263 Mar  5 04:46 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 04:46 aff_first_param
+
+/var/folders/4f/ztv01rqx6_5g4k6ddnpc5xjr0000gq/T/tmpQQVtPG/user/aff_first_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1141 Mar  5 04:46 aff_first_param.c
+ 
+= rev_print ====================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

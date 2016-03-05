@@ -1,0 +1,45 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e3r7p4.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 06:15:43 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury3
+
+= Git history ==================================================================
+$> git -C /var/folders/st/x264d981281__h_nn0rv7k840000gq/T/tmpi_T6Tk/user log --pretty='%H - %an, %ad : %s'
+10ba4abe9662f6fb5ad9f9fb7f94ce8506d06917 - Benjamin FLEURY, Sat Mar 5 05:40:18 2016 +0100 : ft_putstr
+cfa067c13e4f2930215f6d118aa3980c1bb14cbe - Benjamin FLEURY, Sat Mar 5 05:35:19 2016 +0100 : maff_revalpha
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/st/x264d981281__h_nn0rv7k840000gq/T/tmpi_T6Tk/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  492 Mar  5 06:15 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 06:15 ft_putstr
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 06:15 maff_revalpha
+
+/var/folders/st/x264d981281__h_nn0rv7k840000gq/T/tmpi_T6Tk/user/ft_putstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1041 Mar  5 06:15 ft_putstr.c
+
+/var/folders/st/x264d981281__h_nn0rv7k840000gq/T/tmpi_T6Tk/user/maff_revalpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1100 Mar  5 06:15 maff_revalpha.c
+ 
+= wdmatch ======================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

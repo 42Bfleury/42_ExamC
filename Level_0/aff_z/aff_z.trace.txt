@@ -1,0 +1,27 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e3r8p4.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 03:14:27 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury
+= Collected files ==========================================
+$> ls -lAR /var/folders/mn/p9xrkdjd2z95bgtknh8gjtdm0000gq/T/tmpvqxDmj/user
+ 
+= aff_z ========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

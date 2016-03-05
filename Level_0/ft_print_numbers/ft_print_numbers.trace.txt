@@ -1,0 +1,45 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e3r10p16.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 11:23:39 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury7
+
+= Git history ==================================================================
+$> git -C /var/folders/zg/tqtjm3q10q50w6kcss4pgnq00000gq/T/tmpHQtAqj/user log --pretty='%H - %an, %ad : %s'
+1f0a4de469c1cf52f77d803e3f3bdc69334b793a - Benjamin FLEURY, Sat Mar 5 11:23:25 2016 +0100 : ft_print_numbers
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/zg/tqtjm3q10q50w6kcss4pgnq00000gq/T/tmpHQtAqj/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  261 Mar  5 11:23 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 11:23 ft_print_numbers
+
+/var/folders/zg/tqtjm3q10q50w6kcss4pgnq00000gq/T/tmpHQtAqj/user/ft_print_numbers:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1064 Mar  5 11:23 ft_print_numbers.c
+ 
+= ft_print_numbers =============================================================
+$> clang -Wextra -Wall -Werror main.c ft_print_numbers.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./n7d7ulw7zcf23rs2tz7ccw3q
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

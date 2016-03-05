@@ -1,0 +1,85 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r6p20.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Sat Mar  5 10:01:06 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160305/bfleury6
+
+= Git history ==================================================================
+$> git -C /var/folders/mt/b0wdmq7s4hj1mtls7qzb5trh0000gq/T/tmpa7z1xA/user log --pretty='%H - %an, %ad : %s'
+da8a044440af75e4ca67478c5575517eeb3f046b - Benjamin FLEURY, Sat Mar 5 10:00:48 2016 +0100 : aff_first_param
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/mt/b0wdmq7s4hj1mtls7qzb5trh0000gq/T/tmpa7z1xA/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  263 Mar  5 10:01 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  5 10:01 aff_first_param
+
+/var/folders/mt/b0wdmq7s4hj1mtls7qzb5trh0000gq/T/tmpa7z1xA/user/aff_first_param:
+total 8
+-rwxr-xr-x  1 deepthought  deepthought  1141 Mar  5 10:01 aff_first_param.c
+ 
+= aff_first_param ==============================================================
+$> clang -Wextra -Wall -Werror aff_first_param.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./gp2hmbcb5m1pl66gt3n673uj 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./byhyas225ywdzq9voscyplx7 "sXaUZ70TACkBvdr5b"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./r3ex3wel6vnwu8qo36uew9o1 "sAG873cr1exCTVi"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./667d07p8r6kpoyeyakv8oy4h "o jcZDpfX p3 cgF7NO6W8XkA IO zkB7ZKXcP i4L8uW"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./bf99rzcbn24y81fm8tue3osp "ZfuMW1nRTeyr N JH c3CpM HkM2iZDhXS"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./ajjx3ewyesh0fh4sojq5gvnb "5AlkI" "cmyJ0pBCNHx" "zZht1Fa6" "OeXI0wuBAP" "Xvy"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./ptakgtny2bb5nt6x3l7dgqrs "0S" "Sb" "YAQTsur" "KCc" "Jx" "Z" "t"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./c4wyqfnt8wcvynjnylvxde7u "HjSBmXYwx QUdT3ZB" "H1fCv 3yOQD t5VbuGarPH" "9L5DkrB0 40fLKq j" "s5" "6yMhj 5uG" "EJu4 C8m SmVykM" "o" "zgVL bHKl61qgJ HkJuGxMQNEVr" "TVhMJxFEze hr3bU79C H4sg7oUx" "9Ouo7qs1B ZP 2cSC4l0DnaM CG7SXnpRsQ3" "Wda Fv" "XYplyLkTC ekAgSlTbrh sxTGN6Lyfe" "XnoJzR D4 jp8OJwTGEV 90FdRq1"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./y1c5af1rf7xbl3zx3esu9nzw "uQROM52w V3Kboq7UZ5ir" "ZHUACD" "0HYSgf VJYkcOKtH W4UhDB9mo GNAj23b" "dk" "slvuaMjfI RGsa6WIq1 WHgVBmvYK b3QuBqKm0Mz" "u Xbf" "M6 4 L" "SBOn Q47c jhbNeOQ0L skaPO" "2tbSJurQ r how2I3lqmnL sW6" "vZe63 v is"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

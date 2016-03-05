@@ -1,0 +1,42 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r4p17.42.fr
+Darwin 15.3.0 x86_64
+$> date
+Thu Mar  3 11:03:18 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.2 (clang-700.1.81)
+Target: x86_64-apple-darwin15.3.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/practice-exam_20160303/bfleury2
+
+= Git history ==================================================================
+$> git -C /var/folders/73/j11z5tws7vq16pshp3sw0hzh0000gq/T/tmpYbFoeI/user log --pretty='%H - %an, %ad : %s'
+bfe0947f25544a35b6e59dff0f07f2091b278156 - Benjamin FLEURY, Thu Mar 3 11:02:34 2016 +0100 : maff_alpha
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/73/j11z5tws7vq16pshp3sw0hzh0000gq/T/tmpYbFoeI/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  245 Mar  3 11:03 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  3 11:03 maff_alpha
+
+/var/folders/73/j11z5tws7vq16pshp3sw0hzh0000gq/T/tmpYbFoeI/user/maff_alpha:
+total 24
+-rwxr-xr-x  1 deepthought  deepthought  8472 Mar  3 11:03 maff_alpha
+ 
+= maff_alpha ===================================================================
+$> clang -Wextra -Wall -Werror  -o user_exe 
+clang: error: no input files
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================
